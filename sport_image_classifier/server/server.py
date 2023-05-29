@@ -23,12 +23,23 @@ if __name__ == "__main__":
 
 """
 
+Packages:
+import numpy as np
+import pywt
+import cv2
 
-Install required packages
+import joblib
+import json
+import numpy as np
+import base64
+import cv2
+
+from flask import Flask, request, jsonify
+import util
 
 pywavelets
 scikitlearn
-opencv2-python
+opencv2
 numpy
 flask
 
